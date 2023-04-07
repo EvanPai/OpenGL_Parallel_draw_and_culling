@@ -1,6 +1,6 @@
 # OpenGL_Parallel_draw_and_culling
 - use OpenGL compute shader to draw those grasses in parallel. 
-- use frustrum culling to reduce huge amount of grasses that the user cannot see, and only draw the grasses that can be viewed.
+- use frustum culling to reduce huge amount of grasses that the user cannot see, and only draw the grasses that can be viewed.
 - Blinn-Phong shading applied on the grasses and the blue ball. 
 - the blue ball will eat the grasses that it walked through.
 - by using techniques above, the program can still maintain high FPS even when there are a lot of instances in the scene.
